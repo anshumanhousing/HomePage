@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="49z-s5-kNt">
             <objects>
-                <viewController id="cR4-jQ-sCI" customClass="ViewController" customModule="SampleH" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cR4-jQ-sCI" customClass="ViewController" customModule="HomeHousing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XYi-xx-UGm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,8 +161,7 @@
                                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
-                                                    <imageReference key="image" image="HomePageProfile" symbolScale="large"/>
-                                                    <color key="baseBackgroundColor" red="1" green="0.62416802410000005" blue="0.51478802010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <imageReference key="image" image="person.crop.circle" catalog="system" symbolScale="large"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk3-lx-lTQ">
@@ -187,7 +186,7 @@
                                                 <color key="highlightedColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioa-cO-dit">
-                                                <rect key="frame" x="171" y="76" width="177" height="37"/>
+                                                <rect key="frame" x="171" y="86" width="177" height="27"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="+ Post Property"/>
@@ -350,7 +349,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="HomePageProfile" width="32" height="32"/>
         <image name="creditcard" catalog="system" width="128" height="88"/>
         <image name="diamond.fill" catalog="system" width="128" height="124"/>
         <image name="gobackward.60.ar" catalog="system" width="119" height="128"/>
@@ -359,6 +357,7 @@
         <image name="indianrupeesign.circle.fill" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
